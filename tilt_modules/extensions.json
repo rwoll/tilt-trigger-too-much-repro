@@ -1,0 +1,9 @@
+{
+  "Extensions": [
+    {
+      "Name": "docker_build_sub",
+      "ExtensionRegistry": "https://github.com/tilt-dev/tilt-extensions",
+      "TimeFetched": "2021-12-13T21:01:06.664639-08:00"
+    }
+  ]
+}

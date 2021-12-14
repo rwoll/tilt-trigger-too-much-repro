@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  core:
+    image: rwoll/core:repro
+    build:
+      context: ./services/core
+    command: 'echo hi from core'
+
+  extra:
+    image: rwoll/extra:repro
+    build:
+      context: ./services/extra
+    command: 'echo hi from extra'
